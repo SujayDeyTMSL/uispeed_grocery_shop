@@ -232,7 +232,7 @@ class _DetailPageState extends State<DetailPage> {
           const Spacer(),
           Text(
             'Details Food',
-            style: Theme.of(context).textTheme.headline6!.copyWith(
+            style: Theme.of(context).textTheme.titleLarge!.copyWith(
                   color: Colors.white,
                 ),
           ),

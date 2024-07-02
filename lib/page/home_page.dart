@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:uispeed_grocery_shop/model/food.dart';
 import 'package:uispeed_grocery_shop/page/detail_page.dart';
@@ -89,11 +87,11 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget title() {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
+    return const Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           Text(
             'Hi Indra',
             style: TextStyle(
